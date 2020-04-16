@@ -7,9 +7,9 @@
     },
     {
         "remote":       "github",
-        "repository":   "xiaomeme-whyred/vendor_xiaomi_whyred",
+        "repository":   "Jhonse02/vendor_xiaomi_whyred",
         "target_path":  "vendor/xiaomi/whyred",
-        "revision":     "lineage-17.1"
+        "revision":     "quartz"
     },
  
     {
@@ -24,6 +24,14 @@
         "target_path":  "kernel/xiaomi/whyred",
         "revision":     "extended-newcam"
     },
+
+    {
+        "remote":       "github",
+        "repository":   "PixelExperience-Devices/vendor_MiuiCamera",
+        "target_path":  "vendor/MiuiCamera",
+        "revision":     "ten-anx"
+    },
+
     {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
