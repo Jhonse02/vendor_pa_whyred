@@ -22,7 +22,7 @@
         "remote":       "github",
         "repository":   "attack11/Whyred",
         "target_path":  "kernel/xiaomi/whyred",
-        "revision":     "extended-newcam"
+        "revision":     "extended-eas-newcam"
     },
 
     {
