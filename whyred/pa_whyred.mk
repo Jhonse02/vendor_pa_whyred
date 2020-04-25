@@ -15,7 +15,7 @@
 #
 
 # Check for target product
-ifeq (pa_davinci,$(TARGET_PRODUCT))
+ifeq (pa_whyred,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
