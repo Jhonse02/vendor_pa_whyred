@@ -13,8 +13,8 @@
     },
     {
         "remote":       "github",
-        "repository":   "xiaomeme-whyred/",
-        "target_path":  "kernel/xiaomi/android_kernel_xiaomi_sdm660",
+        "repository":   "xiaomeme-whyred/android_kernel_xiaomi_sdm660",
+        "target_path":  "kernel/xiaomi/sdm660",
         "revision":     "lineage-17.1"
     },
     {
