@@ -31,7 +31,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit from custom vendor
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+#$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Inherit some common Paranoid stuff.
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
@@ -55,3 +55,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
 TARGET_VENDOR := Xiaomi
+
+endif

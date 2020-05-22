@@ -1,28 +1,21 @@
 [
     {
         "remote":       "github",
-        "repository":   "Jhonse02/device_xiaomi_whyred",
+        "repository":   "Jhonse02/android_device_xiaomi_whyred",
         "target_path":  "device/xiaomi/whyred",
         "revision":     "quartz"
     },
     {
         "remote":       "github",
-        "repository":   "Jhonse02/vendor_xiaomi_whyred",
-        "target_path":  "vendor/xiaomi/whyred",
-        "revision":     "quartz"
-    },
- 
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_sdm660-common",
+        "repository":   "Jhonse02/android_device_xiaomi_sdm660-common",
         "target_path":  "device/xiaomi/sdm660-common",
         "revision":     "quartz"
     },
     {
         "remote":       "github",
-        "repository":   "attack11/Whyred",
-        "target_path":  "kernel/xiaomi/whyred",
-        "revision":     "extended-eas-newcam"
+        "repository":   "xiaomeme-whyred/",
+        "target_path":  "kernel/xiaomi/android_kernel_xiaomi_sdm660",
+        "revision":     "lineage-17.1"
     },
 
     {
@@ -33,11 +26,10 @@
     },
 
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
+        "remote":       "github",
+        "repository":   "xiaomeme/proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "revision":     "quartz"
-    },
+	"revision":	"lineage-17.1"
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
