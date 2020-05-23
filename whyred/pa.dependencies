@@ -24,6 +24,12 @@
 	"revision":	"10.x"
     },
     {
+        "remote":       "github",
+        "repository":   "PixelExperience-Devices/vendor_MiuiCamera",
+        "target_path":  "vendor/MiuiCamera",
+        "revision":     "ten-anx"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
         "target_path":  "device/qcom/common",
