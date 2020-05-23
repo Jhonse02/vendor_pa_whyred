@@ -31,7 +31,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit from custom vendor
-#$(call inherit-product, vendor/MiuiCamera/config.mk)
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Inherit some common Paranoid stuff.
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
